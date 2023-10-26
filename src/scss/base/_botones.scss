@@ -1,0 +1,31 @@
+.boton {
+    background-color: $amarillo;
+    color: $blanco;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: $bold;
+    border-radius: .5rem;
+    text-align: center;
+    width: 90%;
+    @include tablet {
+        width: auto;
+    }
+}
+
+.boton-verde {
+    @include boton($verde);
+    display: block;
+}
+
+.boton-lila {
+    @include boton($lila);
+}
+
+.boton-amarillo {
+    @include boton($amarillo);
+}
+
+boton-rojo {
+    @include boton ($rojo);
+}

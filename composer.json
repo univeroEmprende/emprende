@@ -1,0 +1,17 @@
+{
+    "name": "56936/bienesraices_inicio",
+    "description": "POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Roberts",
+            "email": "123892258+universo_emprende@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}

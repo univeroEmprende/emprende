@@ -1,0 +1,32 @@
+.hero {
+    background-image: url(../../../build/img/imagen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px; 
+    position: relative;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgb(0 0 0 / 60%);
+    color: $blanco;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+        color: $blanco;
+        margin-bottom: 0;
+    }
+}
+
+.ubicacion {
+    display: flex;
+    align-items: flex-end;
+    img {
+        padding-right: 1.5rem;
+    };
+}
